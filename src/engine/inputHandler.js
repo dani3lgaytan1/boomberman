@@ -43,8 +43,7 @@ function handleGamepadDisconnected(event) {
 // Control event handlers
 
 export function registerKeyEvents() {
-	console.log('registerKeyEvents');
-	console.log('window', window);
+
 	window.addEventListener('keydown', handleKeyDown);
 	window.addEventListener('keyup', handleKeyUp);
 }

@@ -45,7 +45,7 @@ export class Bomberman extends Entity {
     }
 
     handleGeneralStage = () => {
-        console.log(this.id);
+     
         const [direction, velocity] = this.getMovement();
         this.animation = animations.moveAnimations[direction];
         this.direction = direction;
@@ -53,8 +53,6 @@ export class Bomberman extends Entity {
     }
 
     getMovement() {
-        console.log('getMovement');
-        console.log(this.id);
         if (isLeft(this.id)) {
             return [Direction.LEFT, { x: -WALK_SPEED, y: 0 }];
         } else if (isRight(this.id)) {
