@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('bomba1.jpg') no-repeat;
+    background: url('../assets/bomba1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -86,7 +86,7 @@ body {
 }
 
 .register-link p a {
-    color: #fff;
+    color: #ff008c;
     text-decoration: none;
     font-weight: 600;
 }

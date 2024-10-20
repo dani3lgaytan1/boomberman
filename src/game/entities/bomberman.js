@@ -1,4 +1,4 @@
-import { Entity } from "engine/Entity.js";
+import { Entity } from "../../engine/Entity.js";
 import { animations, BombermanStateType, frames } from "../constants/bomberman.js";
 import { Direction } from "../constants/entities.js";
 import { drawFrameOrigin } from "../../engine/context.js";
