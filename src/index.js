@@ -1,4 +1,4 @@
-import { BombermanGame } from 'game/BombermanGame.js';
+import { BombermanGame } from './game/BombermanGame.js';
 
 window.addEventListener('load', () => {
 	new BombermanGame().start();
